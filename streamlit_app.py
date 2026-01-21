@@ -190,7 +190,9 @@ DATABASE = {
         {"id": 2, "name": "Stanford", "fullName": "Stanford University", 
          "description": "Leading research university with exceptional engineering programs"},
         {"id": 3, "name": "IIT Delhi", "fullName": "Indian Institute of Technology Delhi", 
-         "description": "India's premier engineering and technology institute"}
+         "description": "India's premier engineering and technology institute"},
+        {"id": 4, "name": "GTU", "fullName": "Gujarat Technological University", 
+         "description": "Leading state technical university in Gujarat, India"}
     ],
     "branches": [
         {"id": 1, "collegeId": 1, "name": "Electrical Engineering", "code": "EEE", 
@@ -208,7 +210,15 @@ DATABASE = {
         {"id": 7, "collegeId": 3, "name": "Electrical Engineering", "code": "EEE", 
          "description": "Power systems and electronics engineering"},
         {"id": 8, "collegeId": 3, "name": "Mechanical Engineering", "code": "MECH", 
-         "description": "Thermal and mechanical systems engineering"}
+         "description": "Thermal and mechanical systems engineering"},
+        {"id": 9, "collegeId": 4, "name": "Computer Engineering", "code": "CE", 
+         "description": "Computer hardware and software systems engineering"},
+        {"id": 10, "collegeId": 4, "name": "Information Technology", "code": "IT", 
+         "description": "Information systems, networking, and software development"},
+        {"id": 11, "collegeId": 4, "name": "Electrical Engineering", "code": "EE", 
+         "description": "Electrical power systems and control engineering"},
+        {"id": 12, "collegeId": 4, "name": "Mechanical Engineering", "code": "ME", 
+         "description": "Manufacturing, design, and thermal engineering"}
     ],
     "subjects": [
         {"id": 1, "branchId": 1, "semesterId": 3, "name": "Digital Electronics", "code": "EEE301", 

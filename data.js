@@ -18,6 +18,12 @@ const database = {
             name: "IIT Delhi",
             fullName: "Indian Institute of Technology Delhi",
             description: "India's premier engineering and technology institute"
+        },
+        {
+            id: 4,
+            name: "GTU",
+            fullName: "Gujarat Technological University",
+            description: "Leading state technical university in Gujarat, India"
         }
     ],
     branches: [
@@ -79,6 +85,35 @@ const database = {
             name: "Mechanical Engineering",
             code: "MECH",
             description: "Thermal and mechanical systems engineering"
+        },
+        // GTU Branches
+        {
+            id: 9,
+            collegeId: 4,
+            name: "Computer Engineering",
+            code: "CE",
+            description: "Computer hardware and software systems engineering"
+        },
+        {
+            id: 10,
+            collegeId: 4,
+            name: "Information Technology",
+            code: "IT",
+            description: "Information systems, networking, and software development"
+        },
+        {
+            id: 11,
+            collegeId: 4,
+            name: "Electrical Engineering",
+            code: "EE",
+            description: "Electrical power systems and control engineering"
+        },
+        {
+            id: 12,
+            collegeId: 4,
+            name: "Mechanical Engineering",
+            code: "ME",
+            description: "Manufacturing, design, and thermal engineering"
         }
     ],
     semesters: [
@@ -185,6 +220,34 @@ const database = {
             code: "CSE302",
             description: "Relational databases, SQL, and database design",
             credits: 4
+        },
+        // GTU - Computer Engineering - Semester 3
+        {
+            id: 11,
+            branchId: 9,
+            semesterId: 3,
+            name: "Data Structures",
+            code: "3130702",
+            description: "Linear and non-linear data structures with algorithms",
+            credits: 5
+        },
+        {
+            id: 12,
+            branchId: 9,
+            semesterId: 3,
+            name: "Database Management Systems",
+            code: "3130703",
+            description: "Relational database concepts, SQL, and normalization",
+            credits: 5
+        },
+        {
+            id: 13,
+            branchId: 9,
+            semesterId: 3,
+            name: "Digital Fundamentals",
+            code: "3130704",
+            description: "Digital logic, combinational and sequential circuits",
+            credits: 5
         }
     ],
     notes: [
@@ -270,6 +333,65 @@ const database = {
             subjectId: 10,
             title: "SQL Fundamentals",
             description: "Database queries and normalization",
+            type: "PDF",
+            fileUrl: "#"
+        },
+        // GTU - Data Structures Notes
+        {
+            id: 11,
+            subjectId: 11,
+            title: "Array and Linked Lists",
+            description: "Comprehensive guide to arrays and linked list implementations",
+            type: "PDF",
+            fileUrl: "#"
+        },
+        {
+            id: 12,
+            subjectId: 11,
+            title: "Stacks and Queues",
+            description: "Stack and queue data structures with applications",
+            type: "PDF",
+            fileUrl: "#"
+        },
+        {
+            id: 13,
+            subjectId: 11,
+            title: "Trees and Binary Search Trees",
+            description: "Tree traversals, BST operations, and AVL trees",
+            type: "PDF",
+            fileUrl: "#"
+        },
+        // GTU - DBMS Notes
+        {
+            id: 14,
+            subjectId: 12,
+            title: "ER Diagrams and Normalization",
+            description: "Entity-Relationship modeling and database normalization",
+            type: "PDF",
+            fileUrl: "#"
+        },
+        {
+            id: 15,
+            subjectId: 12,
+            title: "SQL Queries Tutorial",
+            description: "Complete SQL guide with practice queries",
+            type: "PDF",
+            fileUrl: "#"
+        },
+        // GTU - Digital Fundamentals Notes
+        {
+            id: 16,
+            subjectId: 13,
+            title: "Boolean Algebra Basics",
+            description: "Logic gates and Boolean expressions",
+            type: "PDF",
+            fileUrl: "#"
+        },
+        {
+            id: 17,
+            subjectId: 13,
+            title: "Flip-Flops and Counters",
+            description: "Sequential circuit design with flip-flops",
             type: "PDF",
             fileUrl: "#"
         }

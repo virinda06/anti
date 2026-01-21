@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Resources Finder - Find Study Materials for Your Course</title>
+    <meta name="description" content="Discover comprehensive engineering study resources organized by college, branch, and semester. Access notes, materials, and resources for EEE, Mechanical, CSE, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <h1 class="hero-title">Engineering Resources Finder</h1>
+            <p class="hero-subtitle">Your gateway to comprehensive engineering study materials</p>
+        </header>
+
+        <nav class="breadcrumb" id="breadcrumb" style="display: none;"></nav>
+
+        <main id="main-content">
+            <!-- College Selection -->
+            <section id="college-section" class="content-section">
+                <h2 class="section-title">Select Your College</h2>
+                <div class="card-grid" id="college-grid"></div>
+            </section>
+
+            <!-- Branch Selection -->
+            <section id="branch-section" class="content-section" style="display: none;">
+                <h2 class="section-title">Select Your Branch</h2>
+                <div class="card-grid" id="branch-grid"></div>
+            </section>
+
+            <!-- Semester Selection -->
+            <section id="semester-section" class="content-section" style="display: none;">
+                <h2 class="section-title">Select Semester</h2>
+                <div class="card-grid semester-grid" id="semester-grid"></div>
+            </section>
+
+            <!-- Subjects & Notes -->
+            <section id="subject-section" class="content-section" style="display: none;">
+                <h2 class="section-title">Subjects & Resources</h2>
+                <div class="subject-list" id="subject-list"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -248,6 +248,199 @@ const database = {
             code: "3130704",
             description: "Digital logic, combinational and sequential circuits",
             credits: 5
+        },
+        {
+            id: 14,
+            branchId: 9,
+            semesterId: 4,
+            name: "Operating Systems",
+            code: "3140702",
+            description: "Process management, memory management, and file systems",
+            credits: 5
+        },
+        {
+            id: 15,
+            branchId: 9,
+            semesterId: 4,
+            name: "Object Oriented Programming - I",
+            code: "3140705",
+            description: "Programming concepts using C++ and Java",
+            credits: 5
+        },
+        {
+            id: 16,
+            branchId: 9,
+            semesterId: 5,
+            name: "Analysis and Design of Algorithms",
+            code: "3150703",
+            description: "Algorithm complexity, sorting, searching, and graph algorithms",
+            credits: 5
+        },
+        {
+            id: 17,
+            branchId: 9,
+            semesterId: 6,
+            name: "Software Engineering",
+            code: "3160701",
+            description: "SDLC designs, agile models, and software testing",
+            credits: 4
+        },
+        {
+            id: 18,
+            branchId: 9,
+            semesterId: 7,
+            name: "Artificial Intelligence",
+            code: "3170701",
+            description: "AI concepts, machine learning basics, and neural networks",
+            credits: 4
+        },
+        // GTU - Information Technology
+        {
+            id: 19,
+            branchId: 10,
+            semesterId: 3,
+            name: "Data Structures",
+            code: "3130702",
+            description: "Linear and non-linear data structures",
+            credits: 5
+        },
+        {
+            id: 20,
+            branchId: 10,
+            semesterId: 3,
+            name: "Database Management Systems",
+            code: "3130703",
+            description: "Database design and SQL",
+            credits: 5
+        },
+        {
+            id: 21,
+            branchId: 10,
+            semesterId: 4,
+            name: "Operating System",
+            code: "3140702",
+            description: "OS concepts and shell programming",
+            credits: 5
+        },
+        {
+            id: 22,
+            branchId: 10,
+            semesterId: 5,
+            name: "Computer Networks",
+            code: "3150710",
+            description: "Networking protocols, layers and security",
+            credits: 5
+        },
+        // GTU - Electrical Engineering
+        {
+            id: 23,
+            branchId: 11,
+            semesterId: 3,
+            name: "Circuits and Networks",
+            code: "3130901",
+            description: "Circuit analysis theorems and network topology",
+            credits: 5
+        },
+        {
+            id: 24,
+            branchId: 11,
+            semesterId: 3,
+            name: "Analog Electronics",
+            code: "3130902",
+            description: "Diode circuits, transistors, and amplifiers",
+            credits: 5
+        },
+        {
+            id: 25,
+            branchId: 11,
+            semesterId: 4,
+            name: "Electrical Machines - I",
+            code: "3140913",
+            description: "DC machines and transformers",
+            credits: 5
+        },
+        {
+            id: 26,
+            branchId: 11,
+            semesterId: 5,
+            name: "Power System - II",
+            code: "3150908",
+            description: "Transmission lines and power system analysis",
+            credits: 5
+        },
+        // GTU - Mechanical Engineering
+        {
+            id: 27,
+            branchId: 12,
+            semesterId: 3,
+            name: "Engineering Thermodynamics",
+            code: "3131905",
+            description: "Laws of thermodynamics and cycles",
+            credits: 4
+        },
+        {
+            id: 28,
+            branchId: 12,
+            semesterId: 3,
+            name: "Fluid Mechanics and Hydraulics",
+            code: "3131906",
+            description: "Fluid statics, kinematics, and dynamics",
+            credits: 4
+        },
+        {
+            id: 29,
+            branchId: 12,
+            semesterId: 4,
+            name: "Manufacturing Processes",
+            code: "3141908",
+            description: "Casting, welding, and forming processes",
+            credits: 4
+        },
+        {
+            id: 30,
+            branchId: 12,
+            semesterId: 5,
+            name: "Heat Transfer",
+            code: "3151909",
+            description: "Conduction, convection, and radiation",
+            credits: 4
+        },
+        // GTU - Common First Year (Semester 1 & 2)
+        {
+            id: 31,
+            branchId: 9, // CE Sem 1
+            semesterId: 1,
+            name: "Mathematics - I",
+            code: "3110014",
+            description: "Calculus and linear algebra",
+            credits: 5
+        },
+        {
+            id: 32,
+            branchId: 9, // CE Sem 1
+            semesterId: 1,
+            name: "Basic Electrical Engineering",
+            code: "3110005",
+            description: "Fundamentals of DC and AC circuits",
+            credits: 4
+        },
+        {
+            id: 33,
+            branchId: 9, // CE Sem 2
+            semesterId: 2,
+            name: "Mathematics - II",
+            code: "3110015",
+            description: "Vector calculus and differential equations",
+            credits: 5
+        },
+        {
+            id: 34,
+            branchId: 9, // CE Sem 2
+            semesterId: 2,
+            name: "Programming for Problem Solving",
+            code: "3110003",
+            description: "C programming fundamentals",
+            credits: 5
         }
     ],
     notes: [

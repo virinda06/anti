@@ -240,7 +240,60 @@ DATABASE = {
         {"id": 9, "branchId": 3, "semesterId": 3, "name": "Data Structures", "code": "CSE301", 
          "description": "Advanced data structures and algorithm design", "credits": 4},
         {"id": 10, "branchId": 3, "semesterId": 3, "name": "Database Systems", "code": "CSE302", 
-         "description": "Relational databases, SQL, and database design", "credits": 4}
+         "description": "Relational databases, SQL, and database design", "credits": 4},
+        # GTU - Computer Engineering - Semester 3
+        {"id": 11, "branchId": 9, "semesterId": 3, "name": "Data Structures", "code": "3130702", 
+         "description": "Linear and non-linear data structures with algorithms", "credits": 5},
+        {"id": 12, "branchId": 9, "semesterId": 3, "name": "Database Management Systems", "code": "3130703", 
+         "description": "Relational database concepts, SQL, and normalization", "credits": 5},
+        {"id": 13, "branchId": 9, "semesterId": 3, "name": "Digital Fundamentals", "code": "3130704", 
+         "description": "Digital logic, combinational and sequential circuits", "credits": 5},
+        {"id": 14, "branchId": 9, "semesterId": 4, "name": "Operating Systems", "code": "3140702", 
+         "description": "Process management, memory management, and file systems", "credits": 5},
+        {"id": 15, "branchId": 9, "semesterId": 4, "name": "Object Oriented Programming - I", "code": "3140705", 
+         "description": "Programming concepts using C++ and Java", "credits": 5},
+        {"id": 16, "branchId": 9, "semesterId": 5, "name": "Analysis and Design of Algorithms", "code": "3150703", 
+         "description": "Algorithm complexity, sorting, searching, and graph algorithms", "credits": 5},
+        {"id": 17, "branchId": 9, "semesterId": 6, "name": "Software Engineering", "code": "3160701", 
+         "description": "SDLC designs, agile models, and software testing", "credits": 4},
+        {"id": 18, "branchId": 9, "semesterId": 7, "name": "Artificial Intelligence", "code": "3170701", 
+         "description": "AI concepts, machine learning basics, and neural networks", "credits": 4},
+        # GTU - Information Technology
+        {"id": 19, "branchId": 10, "semesterId": 3, "name": "Data Structures", "code": "3130702", 
+         "description": "Linear and non-linear data structures", "credits": 5},
+        {"id": 20, "branchId": 10, "semesterId": 3, "name": "Database Management Systems", "code": "3130703", 
+         "description": "Database design and SQL", "credits": 5},
+        {"id": 21, "branchId": 10, "semesterId": 4, "name": "Operating System", "code": "3140702", 
+         "description": "OS concepts and shell programming", "credits": 5},
+        {"id": 22, "branchId": 10, "semesterId": 5, "name": "Computer Networks", "code": "3150710", 
+         "description": "Networking protocols, layers and security", "credits": 5},
+        # GTU - Electrical Engineering
+        {"id": 23, "branchId": 11, "semesterId": 3, "name": "Circuits and Networks", "code": "3130901", 
+         "description": "Circuit analysis theorems and network topology", "credits": 5},
+        {"id": 24, "branchId": 11, "semesterId": 3, "name": "Analog Electronics", "code": "3130902", 
+         "description": "Diode circuits, transistors, and amplifiers", "credits": 5},
+        {"id": 25, "branchId": 11, "semesterId": 4, "name": "Electrical Machines - I", "code": "3140913", 
+         "description": "DC machines and transformers", "credits": 5},
+        {"id": 26, "branchId": 11, "semesterId": 5, "name": "Power System - II", "code": "3150908", 
+         "description": "Transmission lines and power system analysis", "credits": 5},
+        # GTU - Mechanical Engineering
+        {"id": 27, "branchId": 12, "semesterId": 3, "name": "Engineering Thermodynamics", "code": "3131905", 
+         "description": "Laws of thermodynamics and cycles", "credits": 4},
+        {"id": 28, "branchId": 12, "semesterId": 3, "name": "Fluid Mechanics and Hydraulics", "code": "3131906", 
+         "description": "Fluid statics, kinematics, and dynamics", "credits": 4},
+        {"id": 29, "branchId": 12, "semesterId": 4, "name": "Manufacturing Processes", "code": "3141908", 
+         "description": "Casting, welding, and forming processes", "credits": 4},
+        {"id": 30, "branchId": 12, "semesterId": 5, "name": "Heat Transfer", "code": "3151909", 
+         "description": "Conduction, convection, and radiation", "credits": 4},
+        # GTU - Common First Year (Semester 1 & 2)
+        {"id": 31, "branchId": 9, "semesterId": 1, "name": "Mathematics - I", "code": "3110014", 
+         "description": "Calculus and linear algebra", "credits": 5},
+        {"id": 32, "branchId": 9, "semesterId": 1, "name": "Basic Electrical Engineering", "code": "3110005", 
+         "description": "Fundamentals of DC and AC circuits", "credits": 4},
+        {"id": 33, "branchId": 9, "semesterId": 2, "name": "Mathematics - II", "code": "3110015", 
+         "description": "Vector calculus and differential equations", "credits": 5},
+        {"id": 34, "branchId": 9, "semesterId": 2, "name": "Programming for Problem Solving", "code": "3110003", 
+         "description": "C programming fundamentals", "credits": 5}
     ],
     "notes": [
         {"id": 1, "subjectId": 1, "title": "Introduction to Digital Logic", 
@@ -262,7 +315,24 @@ DATABASE = {
         {"id": 9, "subjectId": 9, "title": "Trees and Graphs", 
          "description": "Graph algorithms and tree traversal methods", "type": "PDF"},
         {"id": 10, "subjectId": 10, "title": "SQL Fundamentals", 
-         "description": "Database queries and normalization", "type": "PDF"}
+         "description": "Database queries and normalization", "type": "PDF"},
+        # GTU - Data Structures Notes
+        {"id": 11, "subjectId": 11, "title": "Array and Linked Lists", 
+         "description": "Comprehensive guide to arrays and linked list implementations", "type": "PDF"},
+        {"id": 12, "subjectId": 11, "title": "Stacks and Queues", 
+         "description": "Stack and queue data structures with applications", "type": "PDF"},
+        {"id": 13, "subjectId": 11, "title": "Trees and Binary Search Trees", 
+         "description": "Tree traversals, BST operations, and AVL trees", "type": "PDF"},
+        # GTU - DBMS Notes
+        {"id": 14, "subjectId": 12, "title": "ER Diagrams and Normalization", 
+         "description": "Entity-Relationship modeling and database normalization", "type": "PDF"},
+        {"id": 15, "subjectId": 12, "title": "SQL Queries Tutorial", 
+         "description": "Complete SQL guide with practice queries", "type": "PDF"},
+        # GTU - Digital Fundamentals Notes
+        {"id": 16, "subjectId": 13, "title": "Boolean Algebra Basics", 
+         "description": "Logic gates and Boolean expressions", "type": "PDF"},
+        {"id": 17, "subjectId": 13, "title": "Flip-Flops and Counters", 
+         "description": "Sequential circuit design with flip-flops", "type": "PDF"}
     ]
 }
 
